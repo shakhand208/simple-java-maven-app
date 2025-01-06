@@ -21,9 +21,9 @@ pipeline {
                 bat  './jenkins/scripts/deliver.bat'
             }
         }
-        stage('Complete') {
+        stage('Finish') {
             steps {
-               echo 'The Job is Completed'
+               echo 'The Job Name is Renamed to Finish'
             }
         }
     }
